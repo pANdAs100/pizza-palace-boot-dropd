@@ -1,0 +1,90 @@
+:root{
+    --main-text: #fff9cc;
+    --shadow-text: #00ddff;
+    --hover-text: #faff00;
+    --hover-shadow: #f49200;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.all-content{
+    background-image: url("/imgs/ultra.jpg");
+    background-repeat: no-repeat;
+    background-size: 150rem 31.3rem;
+}
+
+a{
+    color: var(--main-text);
+}
+
+.midnight{
+    background-color: #010112;
+    color: var(--main-text);
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    text-shadow: 2px 2px var(--shadow-text);
+}
+
+.navbar-brand:hover{
+    color: var(--hover-text);
+    text-shadow: 2px 2px var(--hover-shadow);
+}
+
+.mid-content{
+    background-image: url("/imgs/pizzabg.jpe");
+    background-repeat: no-repeat;
+    height: 29rem;
+}
+
+.welcome-message{
+    color: var(--hover-text);
+    text-shadow: 2px 1.5px #010122;
+}
+
+.reviews{
+    /* 'long code for just the border, yes!!! */
+    /* https://stackoverflow.com/questions/2570972/css-font-border */
+    text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+    color: var(--main-text);
+}
+
+p{
+    padding-right: 20px;
+    display: inline;
+}
+
+
+.foot{
+    background-color: #010122;
+    height: 21rem;
+    background-image: url("/imgs/pizzahandfoot.jpe");
+    background-repeat: no-repeat;
+}
